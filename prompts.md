@@ -33,3 +33,8 @@
   **Changed:** Inspected Git state without modifying the repository; found `main` has no commits, project files are staged, commit identity is not configured, and no remote is set.
   **Worked:** The user confirmed the error asks for a username and email; this matches the missing local commit identity.
   **Follow-up:** Rechecked after the user's attempt; neither local name nor email is configured yet, so the commit has not been made.
+
+- **Asked:** Put the Beam Designer app code in the repository's HTML file.
+  **Changed:** Confirmed the target is root `index.html`; requested a decision on the conflict between fixed allowable-stress checks in the professor's draft and full AISC/NDS ASD/LRFD checks previously selected.
+  **Worked:** Yes; the user selected the professor-table educational screening approach, and the app was implemented and validated.
+  **Follow-up:** Implemented the professor-table screening version in `index.html`, with custom properties and an explicit non-code-design disclaimer; updated `spec.md` to match. Browser-tested the four professor validation examples plus partial loads, span clipping, and custom properties. No commit or GitHub push was made.
